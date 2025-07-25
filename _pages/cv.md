@@ -11,54 +11,70 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mechanical Engineering, KU Leuven, 2022  
+  * Thesis: *Composing Concurrent Reactive Robot Skills: Integration of Task Specification and Control with Symbolic Planning and CAD Information*
+* M.Sc. in Systems and Control, TU Delft, 2015  
+  * Thesis: *Reinforcement learning based compensation methods for robot manipulators*
+* B.Sc. in Electrical Engineering, Bandung Institute of Technology, 2013
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* November 2023 – Present: Robotics Software Engineer  
+  * **Movu Robotics**, Lokeren  
+  * Developing and managing the software stack for the Eligo picking robot, including vision, path planning, and picking strategy.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* October 2021 – Present: Robotics Engineer  
+  * **Magics Technologies**, Geel  
+  * Led robotics development initiatives, focusing on grasp and motion planning for autonomous picking of unknown objects.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* February 2016 – September 2021: PhD Researcher  
+  * **KU Leuven**, Leuven  
+  * Developed sensor-based robotic skills for industrial tasks. Participated in Flanders Make projects:  
+    * **FINROP (ICON)**: Fast and intuitive robot programming  
+    * **MULTIROB (SBO)**: Multi-robot assembly skills
+
+* December 2015 – February 2016: Control Engineer  
+  * **Tocano**, Delft  
+  * Developed control systems for inkless printer prototypes.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Robotics Engineering
+  * Sensor-based control
+  * Grasp and motion planning
+* 3D Computer Vision
+  * Point Cloud Library
+* Programming
+  * C++, Python, Java
+  * Embedded systems, Docker
+* Middleware and Tools
+  * Robot Operating System (ROS)
+  * Git, Docker
+
+Languages
+======
+* English (highly proficient)
+* Indonesian (native)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Initiated robotics R&D at Magics Technologies
+* Contributed to multi-institution collaborative projects (Flanders Make)

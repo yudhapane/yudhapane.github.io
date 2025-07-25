@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "A Robotics software engineer with proven academic and industrial expertise in implementing sensor-based robotic systems"
   location         : "Belgium"
-  employer         : ""
+  # employer         : ""
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yudha.pane@gmail.com" 
 
   # Academic websites
   academia         : # URL
